@@ -1,0 +1,670 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.hangtren {
+	margin: 10px 250px;
+}
+.hangtren .bentrai1 ul {
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	float: left;
+}
+.hangtren .benphai1 ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	float: right;
+}
+.hangtren .bentrai1 ul h5 {
+	margin-left: 37px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 9pt;
+	color:rgba(114,114,114,1.00);
+	cursor:pointer;
+} 
+.hangtren .bentrai1 ul h5:hover {
+	color:rgb(255,166,43,1.0) ;
+	font-weight: bolder;
+}
+.hangtren .benphai1 ul h5 {
+	margin-right: 37px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 9pt;
+	color:rgba(114,114,114,1.00);
+}
+.hangtren .benphai1 ul i {
+	margin-right: 10px;
+}
+hr {
+	color:rgba(85,85,85,0.84);
+	margin: 15px 280px 0px;
+}
+.hangduoi {
+	margin: 10px 250px;
+}
+.hangduoi .logo {
+	float: left;
+	margin-left: 30px;
+	cursor:pointer;
+}
+.hangduoi .menu ul {
+	float: right;
+	display: flex;
+	margin-top: 10px;
+}
+.hangduoi .menu ul h5 {
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 10.5pt;
+	margin-right: 30px;
+	cursor:pointer;
+	transition: all 0.2s ease-out;
+}
+.hangduoi .menu ul h5:hover {
+	border-bottom: 2px solid rgba(255,166,43,1.00);
+	color:rgba(255,166,43,1.0);
+}
+.hangduoi {
+	margin-bottom: 20px;
+}
+.hinh {
+	background-image: url("sean-pollock-PhYq704ffdA-unsplash copy.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	width:100%;
+	padding-top: 200px;
+	margin-bottom: 35px;
+}
+.hinh h1 {
+	font-size: 35pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:rgba(250,250,250,1.00);
+	margin-bottom: 80px;
+}
+.hinh .form h4 {
+	display: inline-block;
+	padding: 0px 5px 10px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 10pt;
+	color:rgba(170,170,170,1.00);
+	font-weight: bold;
+}
+.hinh .form h4:hover {
+	color:rgba(255,255,255,1.00);
+}
+.hinh .form input {
+	width:300px;
+	height: 30px;
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	font-size:9pt;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:rgba(147,147,147,1.00);
+	
+	
+}
+.hinh .form button {
+	width:90px;
+	height: 40px;
+	border-radius: 5px;
+	border: 0px;
+	font-size: 10pt;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color:rgba(255,255,255,1.00);
+	background-color:rgba(242,168,47,1.00);
+	cursor:pointer;
+	transition: all 0.2s linear;
+}
+.hinh .form button:hover {
+	background-color:rgba(234,183,84,1.00);
+	color:rgba(229,229,229,1.00);
+}
+.hinh .form {
+	width: 420px;
+    height: 30px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 2%;
+}
+.bst {
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom:80px;
+	display: grid;
+	text-align: center;
+    grid-template-columns: auto auto auto auto;
+}
+.bst .nha {
+	margin: 10px;
+	box-sizing: content-box;
+	color:rgba(255,255,255,1.00);
+}
+.bst .nha h4 {
+	font-family:'Quicksand', sans-serif;
+	font-size: 13.5pt;
+	cursor:pointer;
+}
+.bst .nha p {
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 8.5pt;
+	padding: 2px;
+}
+.hoboi {
+	background-image: url("joe-ciciarelli-08AJKJf75kw-unsplash copy.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 160px;
+	padding-bottom: 35px;
+	border-radius: 10px;
+}
+.cozy{
+	background-image: url("eduardo-freire-1UH-uVzTiDU-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 160px;
+	padding-bottom: 35px;
+	border-radius: 10px;
+}
+.studio {
+	background-image: url("alen-rojnic-o9i8xjpCr54-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 160px;
+	padding-bottom: 35px;
+	border-radius: 10px;
+}
+.luxury {
+	background-image: url("francesca-tosolini-tHkJAMcO3QE-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 160px;
+	padding-bottom: 35px;
+	border-radius: 10px;
+}
+.bst .nha button {
+	background-color:rgba(242,168,47,1.00);
+	padding: 8px 15px;
+	margin-top: 8px;
+	border:none;
+	font-weight: bolder;
+	font-size: 9.5pt;
+	font-family:'Quicksand', sans-serif;
+	color:rgba(255,255,255,1.00);
+	visibility: hidden;
+	
+}
+.bst .nha:hover button {
+	visibility: visible;
+}
+.recent {
+	display: grid;
+    grid-template-columns: auto auto auto;
+	margin-top: 30px;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.recent .type {
+	padding: 30px;
+}
+.recent .type ul {
+	display:flex ;
+	color:rgba(123,123,123,1.00);
+	font-size: 13pt;
+	font-family:'Quicksand', sans-serif;
+	padding-bottom: 15px;
+}
+.recent .type ul h6 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.recent .type h3 {
+	padding-top: 25px;
+	padding-bottom: 10px;
+	font-size: 20pt;
+	font-family: 'DM Sans', sans-serif;
+	color:rgba(241,164,31,1.00);
+	cursor:pointer;
+}
+.recent .type h3:hover {
+	color:rgba(218,109,14,1.00);
+}
+.recent .type h4 {
+	padding-bottom: 10px;
+	font-size: 13pt;
+	font-family: 'DM Sans', sans-serif;
+	color:rgba(57,57,57,1.00);
+}
+.recent .type p {
+	font-size: 11pt;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.phan2 h2 {
+	text-align: center;
+	font-size: 30pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:rgba(37,37,37,1.00);
+	padding-top: 50px;
+}
+.phan2 hr {
+	margin-top: 35px;
+	margin-left: 900px;
+	margin-right: 900px;
+	background-color:rgba(241,164,31,1.00);
+	padding:1px;
+	border: 0px;
+}
+.phan2 button {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 90px;
+	background-color:rgba(241,164,31,1.00);
+	border:1px rgba(255,255,255,1.00);
+	border-radiux:20px;
+	padding: 15px 25px;
+	color:rgba(255,255,255,1.00);
+	font-size:11pt;
+	font-weight:bolder;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+	cursor:pointer;
+}
+.phan2 button:hover {
+	background-color:rgba(255,108,0,1.00);
+}
+.phan3 {
+	background-image: url("photo-1518664196161-4bef8d483164.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 90px 0px 90px;
+}
+.phan3 .ndphan3 {
+	display: grid;
+    grid-template-columns: auto auto auto;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.phan3 .ndphan3 .nd {
+	padding: 10px 30px;
+}
+.phan3 .ndphan3 .nd i {
+	background-image: linear-gradient(to bottom right, #F37335, #FDC830);
+	border-radius: 30px;
+	padding: 20px;
+	color:rgba(255,255,255,1.00);
+	margin-bottom: 20px;
+}
+.phan3 .ndphan3 .nd h3 {
+	font-size:18pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:rgba(255,255,255,1.00);
+}
+.phan3 .ndphan3 .nd p {
+	color:rgba(201,201,201,1.00);
+	font-size:14px;
+	font-family:'Quicksand', sans-serif;
+	margin: 10px 30px;
+}
+.phan3 h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24pt;
+	color:rgba(255,255,255,1.00);
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+.phan3 hr {
+	margin-top: 28px;
+	margin-bottom: 35px;
+	margin-left: 900px;
+	margin-right: 900px;
+	background-color:rgba(241,164,31,1.00);
+	padding:1px;
+	border: 0px;
+}
+.phan4 .ndphan4 {
+	display: grid;
+    grid-template-columns: auto auto auto auto;
+	margin-left: 250px;
+	margin-right: 250px;
+}
+.phan4 .ndphan4 .ndp4 {
+	padding:20px 30px;
+}
+.phan4 .ndphan4 .ndp4 h4 {
+	font-size: 17pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color:rgba(241,164,31,1.00);
+	padding-top: 15px;
+	padding-bottom: 10px;
+	cursor:pointer;
+}
+.phan4 .ndphan4 .ndp4 h4:hover {
+	color:rgba(255,108,0,1.00);
+}
+.phan4 .ndphan4 .ndp4 h5{
+	color:rgba(70,70,70,1.00);
+	font-family:'Quicksand', sans-serif;
+	font-size: 10pt;
+	padding-bottom: 5px;
+}
+.phan4 .ndphan4 .ndp4 h5:hover {
+	text-decoration-line: underline;
+	cursor:pointer;
+}
+.phan4 .ndphan4 .ndp4 i {
+	padding-right: 8px;
+}
+.phan4 button {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 90px;
+	background-color:rgba(241,164,31,1.00);
+	border:1px rgba(255,255,255,1.00);
+	border-radiux:20px;
+	padding: 15px 25px;
+	color:rgba(255,255,255,1.00);
+	font-size:11pt;
+	font-weight:bolder;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
+	cursor:pointer;
+}
+.phan4 button:hover {
+	background-color:rgba(255,108,0,1.00);
+}
+.phan4 h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 27pt;
+	color:rgba(65,65,65,1.00);
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-top: 90px;
+}
+.phan4 hr {
+	margin-top: 28px;
+	margin-bottom: 50px;
+	margin-left: 900px;
+	margin-right: 900px;
+	background-color:rgba(241,164,31,1.00);
+	padding:1px;
+	border: 0px;
+}
+.phan5 {
+	background-color:rgba(234,234,234,1.00);
+	background-size: cover;
+	padding-top:60px;
+	padding-bottom: 10px;
+}
+.phan5 h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 27pt;
+	color:rgba(65,65,65,1.00);
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-top: 90px;
+}
+.phan5 hr {
+	margin-top: 28px;
+	margin-bottom: 40px;
+	margin-left: 900px;
+	margin-right: 900px;
+	background-color:rgba(241,164,31,1.00);
+	padding:1px;
+	border: 0px;
+}
+.phan5 .cmt1 {
+	display: flex;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.phan5 .cmt1 .user {
+	display: flex;
+	margin: 15px 40px;
+}
+.phan5 .cmt1 .user img {
+	margin-right: 15px;
+	border-radius: 10%;
+}
+.phan5 .cmt2 {
+	display: none;
+}
+.phan5 p {
+	font-size: 12pt;
+	font-family:'Quicksand', sans-serif;
+	color:rgba(66,66,66,1.00);
+	margin-right: 30px;
+	font-style: italic;
+}
+.phan5 h5 {
+	font-size: 13.5pt;
+	font-family:'DM Sans', sans-serif;
+	color:rgba(52,52,52,1.00);
+	margin-top: 10px;
+	font-weight:bolder;
+}
+.contact {
+	background-image: url("photo-1518664196161-4bef8d483164.jpg");
+	background-size:cover;
+	background-position: center;
+	padding: 40px 300px 10px;
+}
+.contact .hang1 input {
+	width: 295px;
+	height: 30px;
+	padding: 5px 5px;
+	border: 1px solid rgba(255,255,255,1.00);
+	border-radius: 5px;
+	color:rgba(255,255,255,1.00);
+	font-family:'Quicksand', sans-serif;
+	font-size: 10pt;
+	background-color: rgba(255,255,255,0.02);
+	margin-bottom: 25px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.contact .hang2 input {
+	width: 295px;
+	height: 30px;
+	padding: 5px 5px;
+	border: 1px solid rgba(255,255,255,1.00);
+	border-radius: 5px;
+	color:rgba(255,255,255,1.00);
+	font-family:'Quicksand', sans-serif;
+	font-size: 10pt;
+	background-color:rgba(255,255,255,0.02);
+	margin-bottom: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.contact .hang3 textarea {
+	width: 618px;
+	height: 200px;
+	margin: 0;
+	padding: 5px 10px;
+	font-family:'Quicksand', sans-serif;
+	font-size: 10pt;
+	border: 1px solid rgba(255,255,255,1.00);
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.02);
+}
+.contact h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 27pt;
+	color: rgba(255,255,255,1.00);
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-top: 90px;
+}
+.contact hr {
+	margin-top: 28px;
+	margin-bottom: 60px;
+	margin-left: 622px;
+	margin-right: 622px;
+	background-color:rgba(241,164,31,1.00);
+	padding:1px;
+	border: 0px;
+}
+.contact button {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 90px;
+	background-color:rgba(241,164,31,1.00);
+	border:1px rgba(255,255,255,1.00);
+	border-radiux:20px;
+	padding: 15px 25px;
+	color:rgba(255,255,255,1.00);
+	font-size:11pt;
+	font-weight:bolder;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	cursor:pointer;
+}
+.contact button:hover {
+	background-color:rgba(255,108,0,1.00);
+}
+.footer {
+	background-color:rgba(17,17,17,1.00);
+	padding: 20px 0px 40px;
+}
+
+.footer .cot1 ul i {
+	color:rgba(250,250,250,1.00);
+	padding: 12px;
+	background-color:rgba(53,53,53,1.00);
+	border-radius: 20px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+.footer .cot1 ul .fa-facebook:hover {
+	background-color:rgba(8,47,198,1.00);
+}
+.footer .cot1 ul .fa-twitter:hover {
+	background-color:rgba(31,192,208,1.00);
+}
+.footer .cot1 ul .fa-google-plus-g:hover {
+	background-color:rgba(250,90,0,1.00);
+}
+.footer .cot1 ul .fa-linkedin-in:hover {
+	background-color:rgba(36,157,182,1.00);
+}
+.footer h3 {
+	color:rgba(255,255,255,1.00);
+	font-size: 17pt;
+	font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	margin-bottom: 20px;
+}
+.footer {
+	display: flex;
+	justify-content:space-between;
+	padding-left: 230px;
+	padding-right: 230px;
+	padding-top: 55px;
+	padding-bottom: 80px;
+}
+.footer .cot4 .dong1 {
+	display:flex;
+	align-items: center;
+}
+.footer .cot4 .dong1 h5 {
+	color:rgba(255,165,3,1.00);
+	padding-right: 8px;
+	font-size: 11pt;
+	font-family:'Quicksand', sans-serif;
+}
+.footer .cot4 .dong1 p {
+	color:rgba(154,154,154,1.00);
+	font-family:'Quicksand', sans-serif;
+	font-size: 9.5pt;
+	font-weight: bolder;
+}
+.footer .cot4 .hang1:hover .dong1 p {
+	padding-left: 10px;
+}
+.footer .cot4 h4 {
+	color:rgba(255,255,255,1.00);
+	font-size: 13pt;
+	font-family:'Quicksand', sans-serif;
+	margin-top: 6px;
+}
+.footer .cot4 .hang1:hover h4 {
+	color:rgba(255,165,3,1.00);
+}
+.footer .cot4 .hang1 {
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.footer .cot2 p {
+	font-family: 'Quicksand', sans-serif;
+	color:rgba(254,254,254,1.00);
+	font-size: 11pt;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+.footer .cot2 i {
+	color:aliceblue;
+	background-color:rgba(28,28,28,1.00);
+	padding: 12px;
+}
+.footer .cot2 input {
+	font-size: 12pt;
+	font-family: 'Quicksand', sans-serif;
+	padding: 8px 70px 8px 5px;
+	margin-left: -3px;
+}
+.footer .cot2 button {
+	text-align: center;
+	background-color:rgba(241,164,31,1.00);
+	border:1px rgba(255,255,255,1.00);
+	padding: 11.5px 25px;
+	color:rgba(255,255,255,1.00);
+	font-size:11pt;
+	margin-left:-5px;
+	font-weight:bolder;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	cursor:pointer;
+}
+.footer .cot2 button:hover {
+	background-color:rgba(255,108,0,1.00);
+}
+.footer .cot3 ul {
+	list-style: circle inside url("Untitled-12.png");
+}
+.footer .cot3 ul li {
+	color:aliceblue;
+	font-size: 13pt;
+	font-family:'Quicksand', sans-serif;
+	padding-bottom: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.footer .cot3 ul li:hover {
+	text-decoration-line: underline;
+}
+.thieuthon {
+	background-color:rgba(17,17,17,1.00);
+	padding-bottom: 35px;
+	display: flex;
+	justify-content:center;
+	color:rgba(108,108,108,1.00);
+	text-align: center;
+}
+.thieuthon h4 {
+	text-decoration: none;
+	cursor: pointer;
+}
+.thieuthon h4:hover {
+	text-decoration-line: underline;
+}
